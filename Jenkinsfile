@@ -4,7 +4,7 @@ pipeline {
     stages{
         stage('Code'){
             steps{
-                git url: 'https://github.com/ThirumaranJeyabal/test-nodejs.git', branch: 'master' 
+                git url: 'https://github.com/ThirumaranJeyabal/test-nodejs.git', branch: 'main' 
             }
         }
         stage('Build and Test'){
